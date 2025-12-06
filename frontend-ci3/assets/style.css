@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* Body background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
+    background-image: url(https://media.istockphoto.com/id/1850608258/vector/seamless-talking-speech-bubble-conversation-chatting-teamwork-gpt-background.jpg?s=612x612&w=0&k=20&c=nEB5xbclDA-FGFSVN_ttBEHiNS1IJ5NtqRAlZTWlVJI=);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+     backdrop-filter: blur(5px); /* Blur effect */
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+}
+
+/* Login Box - Updated with transparency and blur */
+.login-container {
+    width: 350px;
+    background: rgba(0, 0, 0,0.3); /* Semi-transparent white */
+    padding: 50px 40px 50px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /*backdrop-filter: blur(10px);  Blur effect */
+    /*-webkit-backdrop-filter: blur(10px); /* Safari support */*/
+    /*border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle white border */*/
+}
+
+/* Heading */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff; /* Changed to white for better contrast */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Labels */
+.login-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #ffffff; /* Changed to white for better contrast */
+}
+
+/* Input Fields */
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0); /* Semi-transparent background */
+    color: #ffffff; /* White text */
+    transition: all 0.3s ease;
+}
+
+/* Input placeholder styling */
+.login-container input::placeholder {
+    color: rgba(255, 255, 255, 1); /* Semi-transparent white placeholder */
+}
+
+/* Input focus effect */
+.login-container input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent border */
+    border-radius: 6px;
+    color: #ffffff; /* White text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.4); /* Slightly less transparent on hover */
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2); /* White shadow instead of purple */
+}
+
+/* Small text */
+.small-text {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff; /* Changed to white for better contrast */
+}
+
+.small-text .link {
+    color: #ffffff; /* White links */
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
+.small-text .link:hover {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+/* Error message */
+.error {
+/*    color: white; /* Light red for better visibility on transparent background */
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 8px;
+    background: rgba(255, 0, 0, 0.1); /* Semi-transparent red background */
+    border-radius: 4px;
+    border-left: 3px solid #ffcccc;*/
+}
